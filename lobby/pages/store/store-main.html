@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Radix Project - Store</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="store.css" />
+    <script>
+        function hideLinks() {
+            let x = document.getElementById("myTopnav");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/80c3ec083d.js" crossorigin="anonymous"></script>
+</head>
+<body id="top">
+
+<div class="navbar" id="myTopnav">
+    <!-- Left pages -->
+    <a href="../../index.html"><i class="fas fa-home"></i> Home</a>
+    <a href="store-main.html" class="active"><i class="fas fa-shopping-cart"></i> Store</a>
+    <a href="#dynmap"><i class="fas fa-map-marked-alt"></i> DynMap</a>
+    <a href="#leaderboards"><i class="fas fa-list-ol"></i> Leaderboards</a>
+    <a href="#staff"><i class="fas fa-user-shield"></i> Staff</a>
+
+    <!-- Middle pages -->
+    <a class="navbarC" href="#home"><img class="navbarImg" src="../../images/Logo.png" alt="#Logo"></a>
+
+    <!-- Right Links -->
+    <a class="navbarR" href="#login"><i class="fas fa-sign-in-alt"></i> Login</a>
+    <a class="navbarR" href="#forums"><i class="fas fa-comments"></i> Forums</a>
+    <a class="navbarR" href="#bans"><i class="fas fa-gavel"></i> Bans</a>
+    <a class="navbarR" href="https://discord.gg/WPsy4kw"><i class="fab fa-discord"></i> Discord</a>
+    <a class="navbarR" href="#wiki"><i class="fab fa-wikipedia-w"></i> Wiki</a>
+
+    <!-- For mobile -->
+    <a href="javascript:void(0);" class="icon" onclick="hideLinks()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<!-- Banner -->
+<!--
+    To use a video as your background, set data-video to the name of your video without
+    its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+    formats to work correctly.
+-->
+<section id="banner">
+    <div class="inner">
+        <header class="cFont">
+            <h1>store</h1>
+        </header>
+    </div>
+</section>
+<!-- Main -->
+<div id="main">
+    <div class="inner">
+
+        <!-- Boxes -->
+        <div class="thumbnails">
+            <div class="box">
+                <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="../../images/pic01.jpg" alt="" /></a>
+                <div class="inner">
+                    <h3>Keys</h3>
+                    <p>Unlock tha most special items in the game with crates like swords, pickaxes, axes, special blocks and more!</p>
+                    <a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">Buy</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="../../images/pic02.jpg" alt="" /></a>
+                <div class="inner">
+                    <h3>Ranks</h3>
+                    <p>In-Game ranks that give you money, more areas, and a lot of amazing perks like fly, que skip, and more!</p>
+                    <a href="https://youtu.be/s6zR2T9vn2c" class="button style2 fit" data-poptrox="youtube,800x400">Buy</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="../../images/pic03.jpg" alt="" /></a>
+                <div class="inner">
+                    <h3>Nascetur nunc varius commodo</h3>
+                    <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+                    <a href="https://youtu.be/s6zR2T9vn2c" class="button style3 fit" data-poptrox="youtube,800x400">Buy</a>
+                </div>
+            </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="inner">
+        <img class="footerImg" src="../../images/Logo.png" alt="#Logo">
+        <p>The Radix Project™</p>
+
+        <ul class="icons">
+            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+        <p class="copyright">&copy; 2020 SebbaIndustries</p>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="../../assets/js/jquery.min.js"></script>
+<script src="../../assets/js/jquery.scrolly.min.js"></script>
+<script src="../../assets/js/jquery.poptrox.min.js"></script>
+<script src="../../assets/js/skel.min.js"></script>
+<script src="../../assets/js/util.js"></script>
+<script src="../../assets/js/main.js"></script>
+
+</body>
+</html>
