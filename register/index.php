@@ -227,8 +227,8 @@
 				<input class="inp" type="password" name="password" placeholder="Пароль" value="<?php echo ((isset($_POST['password'])) ? $_POST['password'] : null) ?>">
 				<input class="inp" type="password" name="repeat_password" placeholder="Повтор пароля" value="<?php echo ((isset($_POST['repeat_password'])) ? $_POST['repeat_password'] : null) ?>">
 
-				<input class="inp" type="submit" class="regb" value="Register!">
-				<p>уже есть аккаунт? <a href="">Войти</p></a>	
+				<input class="inp" type="submit" class="regb" value="Зарегистрироваться">
+				<p>уже есть аккаунт? <a href="http://login/index.php">Войти</p></a>	
 			</center>
 		</form>
 		<div class="image">
